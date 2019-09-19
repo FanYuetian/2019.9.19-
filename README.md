@@ -28,4 +28,10 @@
 19.java中，赋值是有返回值的，赋什么值，就返回什么值；C中，赋值后会与0比较，如果大于0就认为是true，java不会与0比较，而是直接把赋值后的结果放入括号中（ if(x=y) ）
 20.RandomAccessFile可以附加或更新文件
 21.标识符由数字、字母、下划线、美元符号组成；首位不能是数字，标识符不能是关键字
-22.
+
+22.applet中方法执行顺序：init()、start()、paint()窗口最小化等待时候需要暂停、stop()、destroy()
+23.接口所有方法全是抽象方法，只能是public、abstract修饰；属性默认public static final修饰；抽象类除了包含抽象方法外没有什么区别与普通类
+24.java一次编写、到处运行的跨平台性是独有的特点
+25.jps:查看本机java进程消息；jstack:打印线程的栈信息；jmap:打印内存映射；jstat:性能监控工具；jhat:内存分析工具；jconsole:简易的可视化控制台；jvisualvm:功能强大的控制台
+26.treeset不安全
+
